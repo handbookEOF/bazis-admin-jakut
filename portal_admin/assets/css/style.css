@@ -1,0 +1,380 @@
+﻿
+/*=============================================================
+    Authour URL: www.designbootstrap.com
+    
+    http://www.designbootstrap.com/
+
+    License: MIT
+
+    http://opensource.org/licenses/MIT
+
+    100% Free To use For Personal And Commercial Use.
+
+    IN EXCHANGE JUST TELL PEOPLE ABOUT THIS WEBSITE
+   
+========================================================  */
+
+
+/* =============================================================
+   GENERAL STYLES
+ ============================================================ */
+
+@import url(http://fonts.googleapis.com/css?family=Roboto); /* FREE GOOGLE FONT */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 30px;
+}
+
+.set-radius-zero {
+    border-radius: 0px;
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+}
+
+.content-wrapper {
+    margin-top: 40px;
+    min-height: 360px;
+    padding-bottom: 60px;
+}
+
+.page-head-line {
+    font-weight: 900;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #00923F;
+    text-transform: uppercase;
+    color: #00923F;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.btn {
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+}
+
+.progress {
+    height: 8px;
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+}
+.login-icon {
+    height: 60px;
+width: 60px;
+padding: 13px;
+border-radius: 50%;
+font-size: 30px;
+margin-bottom: 20px;
+color: #fff;
+text-align: center;
+cursor:pointer;
+background-color:#00923F;
+-webkit-border-radius:50%;
+    -moz-border-radius:50%;
+}
+/* =============================================================
+   HEADER SECTION STYLES
+ ============================================================ */
+header {
+    background-color: #00923F;
+    color: #fff;
+    padding: 10px;
+    text-align: right;
+}
+
+
+/* =============================================================
+   LOGO SECTION STYLES
+ ============================================================ */
+.left-div {
+    padding-left: 300px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.navbar-brand {
+    width: 250px;
+    padding-top: 0px;
+}
+
+/* USER SETTINGS DIV */
+.user-settings-wrapper .nav > li > a {
+    position: relative;
+    display: block;
+    padding: 15px 18px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    background-color: #00923F;
+    color: #fff;
+}
+
+.user-settings-wrapper {
+    margin-top: 10px;
+}
+
+    .user-settings-wrapper li {
+        display: inline-block;
+    }
+
+    .user-settings-wrapper .nav > li > a:hover{
+        text-decoration: none;
+        background-color: #000!important;
+    }
+
+/* MENU LINKS SECTION*/
+
+.menu-section {
+    background-color: #000;
+}
+
+#menu-top a {
+    color: #FFF;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 10px 10px 10px 10px;
+    text-transform: uppercase;
+}
+
+.menu-top-active {
+    background-color: #00923F;
+}
+
+.menu-section .nav > li > a:hover,.menu-section .nav > li > a:focus {
+    background-color: #00623F!important;
+}
+
+.menu-section .dropdown-menu > li > a:hover,.menu-section .dropdown-menu > li > a:focus {
+    background-color: #F0677C!important;
+}
+
+.navbar-inverse {
+    background-color: darkgreen;
+    border-color: transparent;
+}
+
+.navbar-toggle {
+    background-color: #F0677C;
+    border: 1px solid #fff;
+}
+
+.navbar {
+    margin-bottom: 0px;
+}
+/* =============================================================
+   FOOTER SECTION STYLES
+ ============================================================ */
+footer {
+    padding: 10px;
+    color: #fff;
+    font-size: 12px;
+    background-color: #00923F;
+}
+
+    footer a, footer a:hover {
+        color: #fff;
+        text-decoration: none;
+    }
+
+/*==============================================
+    DASHBOARD  STYLES    
+ =============================================*/
+
+/* DASHBOARD ICONS */
+
+.bk-clr-one {
+    background-color: #B9B739;
+}
+
+.bk-clr-two {
+    background-color: #F94C4C;
+}
+
+.bk-clr-three {
+    background-color: #119c7e;
+}
+
+.bk-clr-four {
+    background-color: #b739b9;
+}
+
+.dashboard-div-icon {
+    height: 75px;
+    width: 75px;
+    border: 2px solid #fff;
+    padding: 20px;
+    border-radius: 50%;
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.dashboard-div-wrapper {
+    border-radius: 5px;
+    text-align: center;
+    padding: 15px;
+    color: #fff;
+    margin-bottom: 50px;
+}
+
+    .dashboard-div-wrapper .progress {
+        height: 2px;
+    }
+
+/* NOTICE BOARD */
+
+
+.notice-board .panel {
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+}
+
+.notice-board ul {
+    padding-left: 0px;
+    list-style: none;
+}
+
+.notice-board li {
+    padding: 10px;
+    border-bottom: 1px solid #E5E5E5;
+}
+
+    .notice-board li span {
+        margin-right: 10px;
+        border: 1px solid #DBDBDB;
+        padding: 5px;
+    }
+
+    .notice-board li a, li a:hover {
+        text-decoration: none;
+        color: #000;
+    }
+
+/* SOCIAL BUTTONS */
+.btn-social {
+    color: white;
+    opacity: 0.8;
+}
+
+    .btn-social:hover {
+        color: white;
+        opacity: 1;
+        text-decoration: none;
+    }
+
+.btn-facebook {
+    background-color: #3b5998;
+}
+
+.btn-twitter {
+    background-color: #00aced;
+}
+
+.btn-linkedin {
+    background-color: #0e76a8;
+}
+
+.btn-google {
+    background-color: #c32f10;
+}
+
+	.button {
+		-moz-transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out, border-color 0.35s ease-in-out;
+		-webkit-transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out, border-color 0.35s ease-in-out;
+		-ms-transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out, border-color 0.35s ease-in-out;
+		transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out, border-color 0.35s ease-in-out;
+		display: inline-block;
+		background: none;
+		border: 2px solid #000;
+		border-radius: 8px;
+		font-size: 0.85em;
+		letter-spacing: 2px;
+		padding: 0.85em 2.75em 0.85em 2.75em;
+		color: #000 !important;
+		text-transform: uppercase;
+		text-decoration: none;
+		font-size: 1em;
+		font-weight: 600;
+		text-align: center;
+	}
+
+		.button.small, .button.big {
+			padding: 0.70em 1.5em;
+			letter-spacing: 1px;
+			font-size: 1.2em !important;
+			font-weight: 600;
+			color: #FFF;
+		}
+
+		.button.arrow .icon {
+			position: relative;
+			color: #FFF;
+		}
+
+			.button.arrow .icon:before {
+				position: absolute;
+				display: inline-block;
+				top: 0.15em;
+				padding-left: 1em;
+				opacity: 0.9;
+				font-size: 1em;
+			}
+
+		.button:hover {
+			background: #00923F;
+			border-color: #fff;
+			border-color: rgba(255, 255, 255, 0.4);
+			color: #FFF !important;
+		}
+
+		.button.style1:hover {
+			background: #fff;
+			color: #de577b !important;
+		}
+
+			.button.style1:hover .icon {
+				color: #de577b !important;
+			}
+
+		.button.style2:hover {
+			background: #000;
+			color: #FFF !important;
+		}
+
+	.button-alt {
+		position: relative;
+		display: inline-block;
+		background: none;
+		padding: 0;
+		font-size: 0.85em;
+		letter-spacing: 1px;
+		color: #000 !important;
+		text-transform: uppercase;
+		text-decoration: none;
+		font-size: 0.9em;
+		font-weight: 700;
+		text-align: center;
+	}
+
+		.button-alt.icon:before {
+			display: inline-block;
+			padding-right: 1em;
+			opacity: 0.9;
+			font-size: 0.90em;
+		}
+
+	.button2 {
+		display: inline-block;
+		color: inherit;
+		text-decoration: none;
+		border: solid 1px #c2c7cc;
+		border-radius: 0.35em;
+		padding: 0.8em 2em 0.8em 2em;
+	}
